@@ -1,0 +1,28 @@
+@mixin slide(){
+    position: relative;
+    margin: auto;
+    width: $width;
+}
+// Ocultar os slide por padrão
+@mixin hide(){
+    display: none;
+}
+//buttons prev and next
+@mixin buttons(){
+    cursor: pointer;
+    position: absolute;
+    margin-top: $margin-top;
+    width: auto;
+    padding: $padding;
+    color: $color-text;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    transition: $transition;
+    border-radius: $border-radius;
+    background-color: $background-color;
+}
+//Posicione o "botão seguinte" à direita
+@mixin next(){
+    right: 0;
+    border-radius: $border-radius-next;
+}
