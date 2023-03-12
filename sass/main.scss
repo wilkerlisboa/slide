@@ -1,0 +1,22 @@
+.slideshow-container{
+    @include slide();
+}
+.mySlides{
+    @include hide();
+}
+
+.prev{
+    @include buttons();
+    &:hover{
+        background: $background-color;
+    }
+}
+.next{
+    @include buttons();
+    &:hover{
+        background: $background-color;
+    }
+}
+.next{
+    @include next();
+}
