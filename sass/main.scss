@@ -6,12 +6,20 @@
 }
 
 .prev{
+    background: url("../icon/seta-direita.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     @include buttons();
     &:hover{
         background: $background-color;
     }
 }
 .next{
+    background: url("../icon/seta-esquerda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     @include buttons();
     &:hover{
         background: $background-color;
