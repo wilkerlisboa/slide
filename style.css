@@ -9,6 +9,10 @@
 }
 
 .prev {
+  background: url("../icon/seta-direita.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   cursor: pointer;
   position: absolute;
   margin-top: -33%;
@@ -26,6 +30,10 @@
 }
 
 .next {
+  background: url("../icon/seta-esquerda.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   cursor: pointer;
   position: absolute;
   margin-top: -33%;
